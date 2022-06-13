@@ -1,0 +1,51 @@
+#microAppDiv {
+  height: 92%;
+  width: 100%;
+  min-width: 260px;
+  min-height: 520px;  
+}
+
+.microapp-control-bottom {
+  padding-top: 2%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.microapp-control-bottom-right {
+  align-self: flex-start;
+  position: absolute;
+}
+
+.microapp-control-bottom-center {
+  padding-top: 10%;
+  margin: 0 auto;  
+  height: 95%;
+  width: 100%;
+}
+
+.microapp-btn {
+  float: left;
+}
+
+.microapp-btn-right {
+  float: right;
+}
+
+.microapp-btn,
+.microapp-btn-right {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.microapp-btn:hover,
+.microapp-btn-right:hover {
+  background-color: rgb(212, 212, 215);
+}
+
+.microapp-iconfont {
+  background-color: #ffffffaf;
+  cursor: pointer;
+}
+
